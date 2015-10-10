@@ -43,7 +43,8 @@ var net = new Net();
 //net.Initialize("http://nergal.ipeer.se:8080");
 //net.Initialize("http://nergal.se:80");
 //net.Initialize("http://192.168.1.137:80");
-net.Initialize("http://localhost:8080");
+//net.Initialize("http://localhost:8080");
+net.Initialize(location.host);
 
 
 //$('#song').prop("volume", 0.8);
