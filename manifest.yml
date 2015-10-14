@@ -1,5 +1,5 @@
 ---
 applications:
 - name: wizardwarz
-  buildpack: https://github.com/ddollar/heroku-buildpack-multi
+  buildpack: https://github.com/ddollar/heroku-buildpack-multi#c41ef671cc9c8ff7d5cc7ad412654fbf9cffbce5
   command: cd server; node server.js;
